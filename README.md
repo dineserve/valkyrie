@@ -24,16 +24,4 @@ Publish your menu from Fillet for Chefs on any website using Angular Elements or
 
 ## Demo
 
-<!--
-```
-<custom-element-demo>
-  <template>
-    <link rel="import" href="https://cdn.jsdelivr.net/npm/wc-valkyrie@0.0.1/elements.js">
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
-```html
-<fillet-menu username="getfillet"></fillet-menu>
-```
+https://jsfiddle.net/kuwape2h/4/
