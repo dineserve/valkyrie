@@ -1,0 +1,19 @@
+<table *ngIf="this.menuItems | async; else loading">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Price</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let menuItem of (this.menuItems | async); let i = index;">
+    <th scope="row">{{ i + 1 }}</th>
+    <td>{{ menuItem.name }}</td>
+    <td>{{ menuItem.price | currency }}</td>
+  </tr>
+  </tbody>
+</table>
+<ng-template #loading>
+  Loading menu&hellip;
+</ng-template>

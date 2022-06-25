@@ -1,0 +1,15 @@
+{
+  "name": "wc-fillet-valkyrie",
+  "version": "0.0.1",
+  "description": "Show menu from Fillet for Chefs on any website.",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "elements.js",
+    "styles.css"
+  ],
+  "author": "",
+  "license": "MIT"
+}

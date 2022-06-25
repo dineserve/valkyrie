@@ -1,0 +1,13 @@
+{
+  "name": "ngx-fillet-valkyrie",
+  "version": "0.0.1",
+  "description": "Show menu from Fillet for Chefs on any website.",
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "license": "MIT"
+}
