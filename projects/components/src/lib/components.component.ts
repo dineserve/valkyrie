@@ -14,7 +14,7 @@ export interface MenuItem {
 })
 export class ComponentsComponent implements OnInit {
 
-  readonly apiUrlRoot = 'http://localhost:8081/api';
+  readonly apiUrlRoot = 'https://menu.show/api';
 
   @Input()
   // Must initialize because `strictPropertyInitialization` is enabled in tsconfig.json.
