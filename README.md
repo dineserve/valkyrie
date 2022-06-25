@@ -1,27 +1,39 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/dineserve/valkyrie)
+
 # Valkyrie
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+## Installation
 
-## Development server
+To use Valkyrie as a web component:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Add the following snippet to your HTML header:
 
-## Code scaffolding
+```html
+<script src="https://cdn.jsdelivr.net/npm/wc-valkyrie@0.0.1/elements.js"></script>
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Add the following snippet to your body. Replace `getfillet` with your **menu.show** username.
 
-## Build
+```html
+<fillet-menu username="getfillet"></fillet-menu>
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Running unit tests
+Publish your menu from Fillet for Chefs on any website using Angular Elements or Web Components.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Demo
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="https://cdn.jsdelivr.net/npm/wc-valkyrie@0.0.1/elements.js">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<fillet-menu username="getfillet"></fillet-menu>
+```
