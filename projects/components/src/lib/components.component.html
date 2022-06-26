@@ -2,8 +2,8 @@
   <thead>
   <tr>
     <th scope="col">#</th>
-    <th scope="col">Name</th>
-    <th scope="col">Price</th>
+    <th scope="col" i18n="@@valkyrie.name">Name</th>
+    <th scope="col" i18n="@@valkyrie.price">Price</th>
   </tr>
   </thead>
   <tbody>
@@ -15,5 +15,5 @@
   </tbody>
 </table>
 <ng-template #loading>
-  Loading menu&hellip;
+  <ng-container i18n="@@valkyrie.loading">Loading menu&hellip;</ng-container>
 </ng-template>

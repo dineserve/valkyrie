@@ -1,5 +1,5 @@
 {
-  "name": "wc-fillet-valkyrie",
+  "name": "wc-valkyrie",
   "version": "0.0.1",
   "description": "Show menu from Fillet for Chefs on any website.",
   "main": "karma.conf.js",

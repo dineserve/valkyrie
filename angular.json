@@ -10,6 +10,12 @@
           "strict": true
         }
       },
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es": "src/locale/messages.es.xlf"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -22,6 +28,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "localize": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -102,6 +109,12 @@
       }
     },
     "components": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es": "src/locale/messages.es.xlf"
+        }
+      },
       "projectType": "library",
       "root": "projects/components",
       "sourceRoot": "projects/components/src",
@@ -134,6 +147,12 @@
     },
     "elements": {
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es": "src/locale/messages.es.xlf"
+        }
+      },
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
@@ -151,6 +170,7 @@
             "main": "projects/elements/src/main.ts",
             "polyfills": "projects/elements/src/polyfills.ts",
             "tsConfig": "projects/elements/tsconfig.app.json",
+            "localize": true,
             "assets": [
               "projects/elements/src/favicon.ico",
               "projects/elements/src/assets"
