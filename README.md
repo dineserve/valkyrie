@@ -11,7 +11,7 @@ To use Valkyrie as a web component:
 1. Add the following snippet to your HTML header:
 
 ```html
-<script src="https://cdn.getfillet.com/wc-valkyrie@0.0.4/en-US/elements.js"></script>
+<script src="https://cdn.dineserve.com/wc-valkyrie@0.0.4/en-US/elements.js"></script>
 ```
 
 2. Add the following snippet to your body. Replace `getfillet` with your **menu.show** username.
