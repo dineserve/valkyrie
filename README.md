@@ -22,6 +22,16 @@ To use Valkyrie as a web component:
 
 Publish your menu from Fillet for Chefs on any website using Angular Elements or Web Components.
 
+### Customization
+
+The web component accepts optional price customization attribute parameters in kebab-case.
+
+To see the list of possible customizations and how they work consult Angular's CurrencyPipe documentation.
+
+https://angular.io/api/common/CurrencyPipe#parameters
+
+The file `test.html` demonstrates customization.
+
 ### Language and region, currency formatting, i18n, and locales.
 
 A separate web component is built for each modern locale that is supported by Angular 13.
