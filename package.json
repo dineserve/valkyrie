@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:elements": "ng build --project elements --output-hashing none && npm run pack:elements && cp projects/elements/package.json dist/elements",
-    "pack:elements": "cat ./dist/elements/runtime.js ./dist/elements/polyfills.js ./dist/elements/main.js > dist/elements/elements.js && ls -lah dist/elements/elements.js",
+    "pack:elements": "for d in dist/elements/*/ ; do cat \"$d\"runtime.js \"$d\"polyfills.js \"$d\"main.js > \"$d\"elements.js && ls -lah \"$d\"elements.js; done",
     "build:components": "ng build --project components"
   },
   "private": true,
