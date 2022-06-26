@@ -10,7 +10,7 @@
   <tr *ngFor="let menuItem of (this.menuItems | async); let i = index;">
     <th scope="row">{{ i + 1 }}</th>
     <td>{{ menuItem.name }}</td>
-    <td>{{ menuItem.price | currency:currency }}</td>
+    <td>{{ menuItem.price | currency:currencyCode:display:digitsInfo }}</td>
   </tr>
   </tbody>
 </table>

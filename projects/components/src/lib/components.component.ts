@@ -29,16 +29,37 @@ export class ComponentsComponent implements OnInit {
   private _username = '';
 
   @Input()
-  // Must initialize because `strictPropertyInitialization` is enabled in tsconfig.json.
-  get currency(): string {
-    return this._currency;
+  get currencyCode(): string {
+    return this._currencyCode;
   }
 
-  set currency(s: string) {
-    this._currency = s;
+  set currencyCode(s: string) {
+    this._currencyCode = s;
   }
 
-  private _currency = '';
+  private _currencyCode = '';
+
+  @Input()
+  get display(): string {
+    return this._display;
+  }
+
+  set display(s: string) {
+    this._display = s;
+  }
+
+  private _display: string = '';
+
+  @Input()
+  get digitsInfo(): string {
+    return this._digitsInfo;
+  }
+
+  set digitsInfo(s: string) {
+    this._digitsInfo = s;
+  }
+
+  private _digitsInfo: string = '';
 
   menuItems?: Observable<MenuItem[]>;
 
