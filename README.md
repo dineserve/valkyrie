@@ -1,6 +1,6 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/wc-valkyrie)
 
-<img src="https://user-images.githubusercontent.com/205733/175829113-4682426b-9162-48e6-955d-20c32249d015.png" width="100" height="100" />
+<img src="https://user-images.githubusercontent.com/205733/175829113-4682426b-9162-48e6-955d-20c32249d015.png" width="100" height="100"  alt="Valkyrie"/>
 
 # Valkyrie
 
