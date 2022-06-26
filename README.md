@@ -42,7 +42,7 @@ See the list of all supported locales in `package.json`.
 
 ## Demo
 
-https://jsfiddle.net/76ahkdLf/6/
+https://jsfiddle.net/gc91of57/1/
 
 ## Attributions
 
