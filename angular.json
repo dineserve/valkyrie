@@ -24,7 +24,6 @@
             "tsConfig": "tsconfig.app.json",
             "localize": true,
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -91,7 +90,6 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -533,7 +531,6 @@
             "tsConfig": "projects/elements/tsconfig.app.json",
             "localize": true,
             "assets": [
-              "projects/elements/src/favicon.ico",
               "projects/elements/src/assets"
             ],
             "styles": [
@@ -600,7 +597,6 @@
             "tsConfig": "projects/elements/tsconfig.spec.json",
             "karmaConfig": "projects/elements/karma.conf.js",
             "assets": [
-              "projects/elements/src/favicon.ico",
               "projects/elements/src/assets"
             ],
             "styles": [
