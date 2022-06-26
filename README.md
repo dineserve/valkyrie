@@ -22,6 +22,12 @@ To use Valkyrie as a web component:
 
 Publish your menu from Fillet for Chefs on any website using Angular Elements or Web Components.
 
+### Language and region, currency formatting, i18n, and locales.
+
+A separate web component is built for each modern locale that is supported by Angular 13.
+
+See the list of all supported locales in `package.json`.
+
 ## Demo
 
 https://jsfiddle.net/kuwape2h/4/
