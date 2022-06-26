@@ -1,5 +1,7 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/wc-valkyrie)
 
+<img src="https://user-images.githubusercontent.com/205733/175829113-4682426b-9162-48e6-955d-20c32249d015.png" width="100" height="100" />
+
 # Valkyrie
 
 ## Installation
@@ -41,3 +43,7 @@ See the list of all supported locales in `package.json`.
 ## Demo
 
 https://jsfiddle.net/kuwape2h/4/
+
+## Attributions
+
+* <a href="https://www.flaticon.com/free-icons/valkyrie" title="valkyrie icons">Valkyrie icons created by Freepik - Flaticon</a>
