@@ -29,7 +29,9 @@ To use Valkyrie as a web component:
 
 ### Install as Angular Element
 
-1. Import `ComponentsModule` in your `app.module.ts`, below `HttpClientModule`.
+1. Run `npm i ngx-valkyrie`.
+
+2. Import `ComponentsModule` in your `app.module.ts`, below `HttpClientModule`.
 
 ```typescript
 import {ComponentsModule} from "ngx-valkyrie";
@@ -43,7 +45,7 @@ import {ComponentsModule} from "ngx-valkyrie";
 })
 ```
 
-2. Add the following snippet to your Angular template. Replace `getfillet` with your **menu.show** username.
+3. Add the following snippet to your Angular template. Replace `getfillet` with your **menu.show** username.
 
 ```html
 <fillet-menu username="getfillet"></fillet-menu>
