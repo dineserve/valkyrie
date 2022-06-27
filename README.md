@@ -9,6 +9,10 @@
 
 ## Installation
 
+Valkyrie can be installed as a Web Component on any web page, or as an Angular Element in projects that use Angular.
+
+### Install as Web Component
+
 To use Valkyrie as a web component:
 
 1. Add the following snippet to your HTML header. Optionally, replace `en-US` with your desired locale.
@@ -18,6 +22,28 @@ To use Valkyrie as a web component:
 ```
 
 2. Add the following snippet to your body. Replace `getfillet` with your **menu.show** username.
+
+```html
+<fillet-menu username="getfillet"></fillet-menu>
+```
+
+### Install as Angular Element
+
+1. Import `ComponentsModule` in your `app.module.ts`, below `HttpClientModule`.
+
+```typescript
+import {ComponentsModule} from "ngx-valkyrie";
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    ComponentsModule
+  ]
+})
+```
+
+2. Add the following snippet to your Angular template. Replace `getfillet` with your **menu.show** username.
 
 ```html
 <fillet-menu username="getfillet"></fillet-menu>
