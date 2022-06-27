@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:elements": "ng build --project elements --output-hashing none && npm run pack:elements && cp projects/elements/package.json dist/elements",
-    "pack:elements": "for d in dist/elements/*/ ; do cat \"$d\"runtime.js \"$d\"polyfills.js \"$d\"main.js > \"$d\"elements.js && ls -lah \"$d\"elements.js; done",
+    "pack:elements": "for d in dist/elements/*/ ; do cat \"$d\"runtime.js \"$d\"polyfills.js \"$d\"main.js > \"$d\"elements.js && ls -lah \"$d\"elements.js && rm \"$d\"runtime.js \"$d\"polyfills.js \"$d\"main.js \"$d\"index.html \"$d\"3rdpartylicenses.txt; done",
     "build:components": "ng build --project components"
   },
   "private": true,
