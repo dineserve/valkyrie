@@ -25,7 +25,7 @@ To use Valkyrie as a web component:
 
 ## Usage
 
-Publish your menu from Fillet for Chefs on any website using Angular Elements or Web Components.
+Publish your live menu from Fillet for Chefs on any website using Angular Elements or Web Components. Changes you make to your menu are automatically updated on every website.
 
 ### Customization
 
