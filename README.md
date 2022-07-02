@@ -7,6 +7,8 @@
 
 # Valkyrie
 
+Publish your live menu from Fillet for Chefs on any website using Angular Elements or Web Components. Changes you make to your menu are automatically updated on every website.
+
 ## Installation
 
 Valkyrie can be installed as a Web Component on any web page, or as an Angular Element in projects that use Angular.
@@ -53,7 +55,7 @@ import {ComponentsModule} from "ngx-valkyrie";
 
 ## Usage
 
-Publish your live menu from Fillet for Chefs on any website using Angular Elements or Web Components. Changes you make to your menu are automatically updated on every website.
+Valkyrie can be customized using HTML attributes.
 
 ### Customization
 
