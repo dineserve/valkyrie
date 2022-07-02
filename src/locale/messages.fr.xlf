@@ -4,15 +4,15 @@
     <body>
       <trans-unit id="valkyrie.name" datatype="html">
         <source>Name</source>
-        <target>Nombre</target>
+        <target>Nom</target>
       </trans-unit>
       <trans-unit id="valkyrie.price" datatype="html">
         <source>Price</source>
-        <target>Precio</target>
+        <target>Prix</target>
       </trans-unit>
       <trans-unit id="valkyrie.loading" datatype="html">
         <source>Loading…</source>
-        <target>Cargando...</target>
+        <target>Chargement...</target>
       </trans-unit>
     </body>
   </file>
