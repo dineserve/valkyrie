@@ -67,6 +67,6 @@ export class ComponentsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.menuItems = this.http.get<MenuItem[]>(`${this.apiUrlRoot}/${this.username}`);
+    this.menuItems = this.http.get<MenuItem[]>(`${this.apiUrlRoot}/menu/${this.username}`);
   }
 }
