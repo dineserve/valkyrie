@@ -75,7 +75,7 @@ See the list of all supported locales in `package.json`.
 
 ## Demo
 
-https://jsfiddle.net/gc91of57/1/
+https://jsfiddle.net/csve630p/2/
 
 ## Attributions
 
